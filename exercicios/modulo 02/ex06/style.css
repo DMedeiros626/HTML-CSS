@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+  em HTNL é id = em CSS é '#' (só pode haver um id no mesmo documento HTML, podendo sim ser usado em outra pagina)
+  em HTML é class = em CSS é . (pode haver mais de uma class em documento HTML)
+  */ 
+
+body {
+    background-color: rgb(143, 228, 143);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: green;
+}
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+h2 {
+    color: rgb(75, 153, 75);
+}
+.basico {
+    color: black;
+}
+.intermediario {
+    color: black;
+}
+.avançado {
+    color: black;
+}
