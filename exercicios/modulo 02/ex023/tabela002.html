@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de Tabelas Grandes</h1>
+    <!--ANATOMIA PARA USO DE TABELAS GRANDES
+    TABLE
+         THEAD
+             TR, TD, TH
+         TBODY
+             TR, TD, TH
+         TFOOT
+             TR, TD, TH
+         -->
+    <table>
+        <thead>
+           <tr>
+            <th>Estado</th>
+            <th>População</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Goiais</td>
+                <td class="num">32 654 985</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">56 987 321</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">65 987 159</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">15 852 413</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">20 561 357</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">87 621 359</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">65 326 984</td>
+            </tr>
+            <tr>
+                <td>Espirito Santos</td>
+                <td class="num">23 659 459</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
