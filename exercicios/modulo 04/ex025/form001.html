@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulario</h1>
+    <form action="cadastro.php">
+
+        <!--O uso de 'label' em formularios é extremamente importante para relacionar o campo de entrada de texto ao nome desse campo, com no exemplo abaixo, pois ajuda os mecanismos de buscas e deixa seu codigo mais proficional-->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+
+        <!--Aprendi hoje os comandos basicos para criar formularios,
+        sempre de da tag <form> usando o comando 'input:text' para criar caixa de texto e comando 'input:submit' para criar o botão de enviar-->
+
+        <!--Tambem sobre formularios tem os metodos Get e Post
+        Get = Se usa quando não há dados sensiveis para enviar, como senhas ou outros dados pessoais, e tambem há limitação de 3000bytes por envio, não podendo enviar arquivos muito grandes
+        Post = É o inverso do Get. Lembrando que esse metodos não trazem tanta seguraça assim para o HTML, o certo e mais recomendado é usar HTTPS-->
+    </form>
+</body>
+</html>
