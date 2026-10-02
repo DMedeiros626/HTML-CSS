@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia Query</title>
+
+    <!--Nesse exercicio aprendi como usar varias Media Queries em um unico CSS, porem, só é recomnedado para projetos pequenos por deixar o codigo muito lotado e esteticamente tambem parece dezorganizado-->
+    
+    <style>
+        /* Declarações gerais */
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 0px #1526a7;
+            padding: 10px;
+        }
+
+        /* Declarações retrata */
+
+        @media screen and (orientation: portrait) {
+            body {
+            background-image: url(../imagens/cev-portrait.jpg);
+            background-position: center bottom;
+        }
+            
+        }
+
+        /* Declarações paisagem */
+
+        @media screen and (orientation: landscape) {
+            body {
+            background-image: url(../imagens/cev-landscape.jpg);
+            background-position: left bottom;
+        }
+            
+        }
+
+        
+    </style>
+
+    <!--Nos links CSS no parametro "Media" podemos usar medias types como screen e print e tambem usar medias features para criar um complemento especifico para aqule CSS, como mudar a orientação da tela.-->
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>
