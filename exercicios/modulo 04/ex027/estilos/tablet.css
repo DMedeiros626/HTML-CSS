@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+main {
+    background-color: rgba(255, 255, 255, 0.842);
+    min-width: 768px;
+    max-width: 992px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
