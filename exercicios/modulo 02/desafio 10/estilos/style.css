@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -36,7 +36,7 @@ a.externo::after {
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive; 
-    --font-andoid: 'Android', cursive;
+    --font-android: 'Android', cursive;
 }
 
 main p {
@@ -127,12 +127,12 @@ main a:hover {
 }
 main h1 {
     color: var(--cor5);
-    font-family: var(--font-andoid);
+    font-family: var(--font-android);
 }
 
 main h2 {
     background-image: linear-gradient(to right, var(--cor1), white);
-    font-family: var(--font-andoid);
+    font-family: var(--font-android);
     color: var(--cor4);
     padding-left: 10px;
 }
