@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+h1 {
+            text-align: center;
+        }
+
+        div.container {
+            background-color: salmon;
+            display: flex;
+        }
+
+        div.item {
+            /* Por padrão o 'display: flex' vem com 'flex-direction: row' e o 'flex-wrap: nowrap' */
+
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.container2 {
+            background-color: salmon;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        div.item2 {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+
+        div.container3 {
+            background-color: salmon;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item3 {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.container4 {
+            background-color: salmon;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .item4 {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.container5 {
+            /*Padrão*/
+
+            background-color: salmon;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        div.item5 {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.container6 {
+
+            background-color: salmon;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        div.item6 {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.container7 {
+
+            background-color: salmon;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+        }
+
+        div.item7 {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.container8 {
+
+            background-color: salmon;
+            display: flex;
+            flex-flow: row-reverse wrap-reverse;
+        }
+
+          
+        
+
+        div.item8 {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
